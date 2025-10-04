@@ -1,0 +1,45 @@
+.border{
+    border: 2px solid rgb(242, 30, 30);
+    margin: 3px;
+}
+
+.item-center{
+   align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.m-1{
+    margin:5px;
+}
+
+/* For Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 12px;
+  background: #181818;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #333 #181818;
+}
